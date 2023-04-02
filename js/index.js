@@ -122,7 +122,7 @@ if (createTableByIdButton) {
       ws['!cols'] = width
 
       const wb = XLSX.utils.book_new()
-      XLSX.utils.book_append_sheet(wb, ws, 'People')
+      XLSX.utils.book_append_sheet(wb, ws, 'Отчёт по рассылкам')
       XLSX.writeFile(wb, 'result.xlsx')
 
       createTableByIdButton.disabled = false
@@ -235,7 +235,7 @@ if (createTableByDateButton) {
       ws['!cols'] = width
 
       const wb = XLSX.utils.book_new()
-      XLSX.utils.book_append_sheet(wb, ws, 'People')
+      XLSX.utils.book_append_sheet(wb, ws, 'Отчёт по рассылкам')
       XLSX.writeFile(wb, 'result.xlsx')
 
       createTableByDateButton.disabled = false
